@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equipv="x-UA-Compatible" content="IE-edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>Login/Register</title>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="b">
+            <h1>Login/Register</h1>
+        </div>
+
+        <div role="main" class="ui-content">
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password">
+                <input type="submit" value="Login" class="ui-btn ui-btn-b">
+            </form>
+
+            <hr>
+
+            <h2>Register</h2>
+            <form>
+                <label for="newUsername">Username:</label>
+                <input type="text" name="newUsername" id="newUsername">
+                <label for="newPassword">Password:</label>
+                <input type="password" name="newPassword" id="newPassword">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" name="confirmPassword" id="confirmPassword">
+                <input type="submit" value="Register" class="ui-btn ui-btn-b">
+            </form>
+        </div>
+
+        <div data-role="footer" data-position="fixed" data-theme="b">            
+            <center>
+                <div id="quicklinks">
+                    <h3>Quicklinks</h3><br>
+                    <a href="index.html">Home</a><br>
+                    <a href="about_us.html">About Us</a><br>
+                    <a href="login_register.html">Login/Register</a><br>
+                    <p>Copyright 2024 | All rights are reserved.</p>
+                </div>
+            </center>
+        </div>
+    </div>
+</body>
+</html>

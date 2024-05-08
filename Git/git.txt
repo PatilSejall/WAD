@@ -1,0 +1,56 @@
+
+hp@DESKTOP-F22JMIR MINGW64 ~/Desktop/practicals/StudentDashboard (master)
+$ git init
+Initialized empty Git repository in C:/Users/hp/Desktop/practicals/StudentDashboard/.git/
+
+
+
+hp@DESKTOP-F22JMIR MINGW64 ~/Desktop/practicals/StudentDashboard (master)
+$ git add --a
+warning: in the working copy of 'index.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+
+
+
+
+hp@DESKTOP-F22JMIR MINGW64 ~/Desktop/practicals/StudentDashboard (master)
+$ git commit -m "dashboard"
+[master (root-commit) 29dc708] dashboard
+ 2 files changed, 219 insertions(+)
+ create mode 100644 index.css
+ create mode 100644 index.html
+
+
+
+hp@DESKTOP-F22JMIR MINGW64 ~/Desktop/practicals/StudentDashboard (master)
+$ git branch -M main
+
+
+
+
+hp@DESKTOP-F22JMIR MINGW64 ~/Desktop/practicals/StudentDashboard (main)
+$ ^[[200~git remote add origin https://github.com/Dnyaneshwari-Kondhalkar/demo.git
+bash: $'\E[200~git': command not found
+
+
+
+
+hp@DESKTOP-F22JMIR MINGW64 ~/Desktop/practicals/StudentDashboard (main)
+$ git remote add origin https://github.com/Dnyaneshwari-Kondhalkar/demo.git
+
+
+
+hp@DESKTOP-F22JMIR MINGW64 ~/Desktop/practicals/StudentDashboard (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.31 KiB | 1.16 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Dnyaneshwari-Kondhalkar/demo.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+hp@DESKTOP-F22JMIR MINGW64 ~/Desktop/practicals/StudentDashboard (main)
+$ ^C

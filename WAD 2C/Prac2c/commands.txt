@@ -1,0 +1,3 @@
+npm install -g @angular/cli
+npm init
+npm install @angular-devkit/build-angular --force
